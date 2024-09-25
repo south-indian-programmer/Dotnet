@@ -1,0 +1,261 @@
+﻿Basic Structure of C# Program
+Methods and Properties of Console Class
+Data Types
+Literals
+Type Casting
+Variables
+Operators
+Control Flow Statements
+If-Else Statements
+Switch Statements
+Loops
+While Loop
+Do While Loop
+For Loop
+Break Statement
+Continue Statement
+Goto Statement
+Functions
+User-Defined Functions
+Call By Value and Call By Reference
+Recursion
+User Input and Output
+Command Line Arguments
+String
+Static Keyword
+Static vs Non-Static Members
+Const and Read-Only
+Properties
+Why we Should Override ToString Method
+Override Equals Method
+Difference Between Convert.ToString and ToString Method
+Checked and Unchecked Keywords
+Stack and Heap Memory in .NET
+Boxing and Unboxing
+================================================================
+Object Oriented Programming (OOPs)
+Class and Objects
+Constructors
+Types of Constructors
+Why We Need Constructors
+Static vs Non-Static Constructors
+Private Constructors
+Destructors
+Garbage Collection in .NET Framework
+Differences Between Finalize and Dispose
+Access Specifiers
+Encapsulation
+Abstraction
+Inheritance
+Types of Inheritance
+How to use Inheritance in Application Development
+IsA and HasA Relationship
+Generalization and Specialization
+Abstract Class and Abstract Methods
+Abstract Class and Abstract Methods Interview Questions
+How to Use Abstract Classes and Methods in C# Application
+Interface
+Interface Interview Questions and Answers
+Interface Realtime Examples
+Multiple Inheritance
+Multiple Inheritance Realtime Example
+Polymorphism
+Method Overloading
+Operator Overloading
+Method Overriding
+Method Hiding
+Partial Class and Partial Methods
+Sealed Class and Sealed Methods
+Extension Methods
+Static Class
+Variable Reference and Instance of a Class
+================================================================
+Real-time Examples of Encapsulation Principle
+Real-Time Examples of Abstraction Principle
+Real-Time Examples of Inheritance Principle
+Real-Time Examples of Polymorphism Principle
+Real-Time Examples of Interface
+Real-Time Examples of Abstract Class
+================================================================
+Exception Handling
+Multiple Catch Blocks
+Finally Block
+How to Create Custom Exceptions
+Inner Exception
+Exception Handling Abuse
+================================================================
+Course Structure of Events Delegates and Lambda Expression
+Roles of Events Delegates and Event Handler
+Delegates
+Multicast Delegates
+Delegates Real-Time Example
+Generic Delegates
+Anonymous Method
+Lambda Expressions
+Events in C# with Examples
+================================================================
+Multithreading
+Thread class
+How to Pass Data to Thread Function in Type Safe Manner
+How to Retrieve Data from a Thread Function
+Join Method and IsAlive Property of Thread Class in C# 
+Thread Synchronization
+Lock
+Monitor Class
+Mutex Class
+Semaphore Class
+SemaphoreSlim Class
+Deadlock
+Performance Testing of a Multithreaded Application
+Thread Pool
+Foreground and Background Threads
+AutoResetEvent and ManualResetEvent
+Thread Life Cycle
+Threads Priorities
+How to Terminate a Thread
+Inter Thread Communication
+How to Debug a Multi-threaded Application
+================================================================
+Arrays
+2D Arrays
+Advantages and Disadvantages of Arrays
+Collections
+ArrayList
+Hashtable
+Non-Generic Stack
+Non-Generic Queue
+Non-Generic SortedList
+Advantages and Disadvantages of Non-Generic Collection
+Generic Collections
+Generics
+Generic Constraints
+Generic List Collection
+How to Sort a List of Complex Type
+Comparison Delegate
+Dictionary Collection Class
+Conversion Between Array List and Dictionary
+List vs Dictionary
+Generic Stack Collection Class
+Generic Queue Collection Class
+Foreach Loop
+Generic HashSet Collection Class
+Generic SortedList Collection Class
+Generic SortedSet Collection Class
+Generic SortedDictionary Collection Class
+Generic LinkedList Collection Class
+Concurrent Collection
+ConcurrentDictionary Collection Class
+ConcurrentQueue Collection Class
+ConcurrentStack Collection Class
+ConcurrentBag Collection Class
+BlockingCollection
+================================================================
+File Handling
+FileStream Class
+StreamReader and StreamWriter
+File Class
+TextWriter and TextReader
+BinaryWriter and BinaryReader
+StringWriter and StringReader
+FileInfo Class
+DirectoryInfo Class
+Export and Import Excel Data
+================================================================
+Introduction to Concurrency
+Async and Await
+Task
+How to Return a Value from Task
+How to Execute Multiple Tasks
+How to Limit Number of Concurrent Tasks
+How to Cancel a Task in C# using Cancellation Token
+How to Create Synchronous Method using Task
+Retry Pattern
+Only One Pattern
+How to Control the Result of a Task
+Task-Based Asynchronous Programming
+Chaining Tasks by Using Continuation Tasks
+How to Attached Child Tasks to a Parent Task
+ValueTask
+How to Cancel a Non-Cancellable Task
+Asynchronous Streams
+How to Cancel Asynchronous Stream
+Task Parallel Library
+Parallel For
+Parallel Foreach Loop
+Parallel Invoke
+Maximum Degree of Parallelism
+How to Cancel Parallel Operations
+Atomic Methods Thread Safety and Race Conditions
+Interlocked vs Lock
+Parallel LINQ
+Multithreading vs Asynchronous Programming vs Parallel Programming
+================================================================
+AutoMapper
+AutoMapper Complex Mapping
+How to Map Complex Type to Primitive Type using AutoMapper
+AutoMapper Reverse Mapping
+AutoMapper Conditional Mapping in C#
+AutoMapper Ignore Method
+Fixed and Dynamic Values in Destination Property in AutoMapper
+================================================================
+How to make Optional Parameters
+Indexers
+Indexers Real-Time Example
+Enums
+================================================================
+DOT NET Framework
+Common Language Runtime in .NET Framework
+.NET Program Execution Process
+Intermediate Language (ILDASM & ILASM) Code
+Common Type System in .NET Framework
+Common Language Specification in .NET Framework
+Managed and Unmanaged Code in .NET Framework
+Assembly DLL EXE in .NET Framework
+App Domain in .NET Framework
+Strong and Weak Assemblies in .NET Framework
+How to Install an Assembly into GAC in .NET Framework
+DLL Hell Problem and Solution in .NET Framework
+================================================================
+Reflection
+Dynamic Type
+Var Keyword
+Var vs Dynamic
+Dynamic vs Reflection
+Volatile Keyword
+Ref vs Out
+Named Parameters
+================================================================
+C# 7 New Features
+Enhancement in Out Variables in C# 7
+Pattern Matching
+Digit Separators in C# 7
+Tuples in C# 7
+Splitting Tuples in C# 7
+Local Functions in C# 7
+Ref Returns and Ref Locals in C# 7
+Generalized Async Return Types in C# 7
+Expression Bodied Members
+Thrown Expression in C#
+Async Main in C#
+================================================================
+C# 8 New Features
+ReadOnly Structs
+Default Interface Methods
+Pattern Matching
+Using Declarations
+Static Local Functions
+Disposable Ref Structs
+Nullable Reference Types in C# 8
+Asynchronous Streams
+Asynchronous Disposable
+Indices and Ranges
+Null-Coalescing Assignment Operator
+Unmanaged Constructed Types
+Stackalloc in
+================================================================
+Most Recommended C# Books
+Most Recommended Data Structure and Algorithms Books using C#
+
+
+
+

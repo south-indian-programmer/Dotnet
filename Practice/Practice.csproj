@@ -7,15 +7,4 @@
     <Nullable>enable</Nullable>
     <StartupObject>Practice.Program</StartupObject>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="FileIO\" />
-    <Folder Include="GC\" />
-    <Folder Include="Mathematics\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Delegates\" />
-    <Folder Include="Events\" />
-    <Folder Include="Abstracts\" />
-    <Folder Include="Attributes\" />
-  </ItemGroup>
 </Project>

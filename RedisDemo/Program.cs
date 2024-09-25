@@ -1,3 +1,6 @@
+using Microsoft.Extensions.Configuration;
+using StackExchange.Redis;
+
 namespace RedisDemo
 {
 	public class Program
@@ -8,6 +11,21 @@ namespace RedisDemo
 
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
+
+			IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+			string redisEndpoint = configuration.GetValue<string>("RedisHost") ?? "";
+			ConfigurationOptions option = new ConfigurationOptions
+			{
+				AbortOnConnectFail = false,
+				EndPoints = { { "localhost", 32769 } }
+
+			};
+
+			builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect(option));
+			builder.Services.AddHttpClient();
+
+			builder.Services.AddEndpointsApiExplorer();
+			builder.Services.AddSwaggerGen();
 
 			var app = builder.Build();
 
@@ -23,6 +41,8 @@ namespace RedisDemo
 			app.UseStaticFiles();
 
 			app.UseRouting();
+			app.UseSwagger();
+			app.UseSwaggerUI();
 
 			app.UseAuthorization();
 
