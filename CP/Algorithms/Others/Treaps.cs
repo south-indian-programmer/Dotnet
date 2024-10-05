@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CP.DataStructures
+namespace CP.Algorithms.Others
 {
-	internal class GraphDemos
+	internal class Treaps
 	{
-
 	}
 }

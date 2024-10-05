@@ -3,23 +3,15 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings> 
     <StartupObject>CP.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Algorithms\BranchBround\" />
     <Folder Include="Algorithms\Geometric\" />
-    <Folder Include="Algorithms\Bitwise\" />
-    <Folder Include="Algorithms\Greedy\" />
-    <Folder Include="Algorithms\String\" />
-    <Folder Include="Algorithms\Backtracking\" />
-    <Folder Include="Algorithms\Sorting\" />
-    <Folder Include="DataStructures\Arrays\" />
     <Folder Include="DataStructures\LinkedList\" />
-    <Folder Include="DataStructures\Trees\" />
-    <Folder Include="DataStructures\Graphs\" />
+    <Folder Include="Books\" />
   </ItemGroup>
 
 </Project>

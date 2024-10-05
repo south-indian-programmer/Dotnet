@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CP.Algorithms.DP
 {
-	internal class Class1
+	internal class CuttingRod
 	{
 	}
 }

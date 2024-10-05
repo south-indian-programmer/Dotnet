@@ -1,0 +1,1 @@
+﻿Covers API gateway

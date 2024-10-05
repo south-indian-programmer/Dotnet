@@ -1,5 +1,7 @@
 ﻿using CP.Algorithms.Searching;
 using CP.DataStructures;
+using CP.DataStructures.Graphs;
+using CP.DataStructures.Trees;
 
 namespace CP
 {
@@ -7,7 +9,7 @@ namespace CP
 	{
 		static void Main(string[] args)
 		{
-			BinarySearching.Main(null);
+			GraphTraverse.Main(null);
 		}
 	}
 }

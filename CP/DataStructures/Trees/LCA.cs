@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CP.DataStructures
+namespace CP.DataStructures.Trees
 {
-	internal class Trees
+	internal class LCA
 	{
-
 	}
 }
